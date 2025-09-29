@@ -1,0 +1,44 @@
+[
+    {
+        "model": "shops.review",
+        "fields": {
+            "shop": 1,
+            "reviewer": 3,
+            "rating": 5,
+            "has_freefood": false,
+            "description": "This noodle store offers an exceptional dining experience with a wide variety of flavorful dishes that cater to every palate. The noodles are perfectly cooked, with a satisfying texture that pairs beautifully with the rich, savory broths. The ingredients taste fresh, and the presentation of each dish is visually appealing. The atmosphere is clean and inviting, making it an ideal spot for a casual meal or quick bite. The staff are friendly and efficient, ensuring that service is prompt and pleasant. Whether you're a fan of spicy flavors or prefer something more mild, there is something for everyone on the menu. Highly recommended for anyone looking to enjoy high-quality noodles at an affordable price.",
+            "created_at": "2025-07-22T12:15:06Z",
+            "is_ai_generated": true,
+            "score": 0.9992,
+            "updated_at": "2025-07-22T12:15:06Z"
+        }
+    },
+    {
+        "model": "shops.review",
+        "fields": {
+            "shop": 2,
+            "reviewer": 4,
+            "rating": 5,
+            "has_freefood": false,
+            "description": "This vegetarian rice shop is a hidden gem that offers a delightful array of plant-based dishes. The rice is fluffy and perfectly cooked, serving as a great base for the variety of flavorful toppings available. Each dish is thoughtfully prepared with fresh vegetables and aromatic spices, creating a satisfying and wholesome meal. The atmosphere is cozy and welcoming, making it a perfect spot for a quick lunch or casual dinner. The staff are friendly and attentive, ensuring that your dining experience is enjoyable. Whether you're a vegetarian or simply looking to try something new, this shop is definitely worth a visit.",
+            "created_at": "2025-07-22T12:15:06Z",
+            "is_ai_generated": true,
+            "score": 0.9992,
+            "updated_at": "2025-07-22T12:15:06Z"
+        }
+    },
+    {
+        "model": "shops.review",
+        "fields": {
+            "shop": 1,
+            "reviewer": 5,
+            "rating": 5,
+            "has_freefood": false,
+            "description": "This noodle store offers an exceptional dining experience with a wide variety of flavorful dishes that cater to every palate. The noodles are perfectly cooked, with a satisfying texture that pairs beautifully with the rich, savory broths. The ingredients taste fresh, and the presentation of each dish is visually appealing. The atmosphere is clean and inviting, making it an ideal spot for a casual meal or quick bite. The staff are friendly and efficient, ensuring that service is prompt and pleasant. Whether you're a fan of spicy flavors or prefer something more mild, there is something for everyone on the menu. Highly recommended for anyone looking to enjoy high-quality noodles at an affordable price.",
+            "created_at": "2025-07-22T12:15:06Z",
+            "is_ai_generated": true,
+            "score": 0.9992,
+            "updated_at": "2025-07-22T12:15:06Z"
+        }
+    }
+]

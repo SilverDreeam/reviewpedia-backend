@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>[Resend] Email Confirmation</title>
+    <style>
+        body {
+            background-color: #f4f6f8;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #333333;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 40px auto;
+            background: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            padding: 30px 40px;
+        }
+
+        h1 {
+            color: #004aad;
+            font-weight: 700;
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+            margin: 20px 0;
+        }
+
+        a.button {
+            display: inline-block;
+            background-color: #004aad;
+            color: #ffffff !important;
+            text-decoration: none;
+            padding: 12px 25px;
+            border-radius: 5px;
+            font-weight: 600;
+            font-size: 16px;
+            margin-top: 25px;
+            transition: background-color 0.3s ease;
+        }
+
+        a.button:hover {
+            background-color: #003380;
+        }
+
+        .footer {
+            font-size: 13px;
+            color: #888888;
+            margin-top: 30px;
+            border-top: 1px solid #eaeaea;
+            padding-top: 15px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Hello {{ user.username }},</h1>
+        <p>
+            Thank you for joining <strong>Reviewpedia</strong>! Please confirm your email address by clicking the button
+            below:
+        </p>
+        <p style="text-align: center;">
+            <a href="{{ activate_url }}" class="button" target="_blank" rel="noopener noreferrer">
+                Confirm Your Email
+            </a>
+        </p>
+        <p>
+            If you did not sign up for this account, please ignore this email.
+        </p>
+        <div class="footer">
+            &copy; {{ current_year }} Reviewpedia. All rights reserved.
+        </div>
+    </div>
+</body>
+
+</html>

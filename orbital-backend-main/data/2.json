@@ -1,0 +1,70 @@
+[
+    {
+        "model": "users.user",
+        "fields": {
+            "password": "pbkdf2_sha256$1000000$MzcEjdkj8OKiE3VV6kix9i$496EWDDi4YAvCM0nEl8Cipy0bFI6MTX7HUgHAA0LK+4=",
+            "username": "reviewer1",
+            "verified": true,
+            "role": "reviewer",
+            "email": "reviewer1@example.com"
+        }
+    },
+    {
+        "model": "users.user",
+        "fields": {
+            "password": "pbkdf2_sha256$1000000$MzcEjdkj8OKiE3VV6kix9i$496EWDDi4YAvCM0nEl8Cipy0bFI6MTX7HUgHAA0LK+4=",
+            "username": "reviewer2",
+            "verified": true,
+            "role": "reviewer",
+            "email": "reviewer2@example.com"
+        }
+    },
+    {
+        "model": "users.user",
+        "fields": {
+            "password": "pbkdf2_sha256$1000000$MzcEjdkj8OKiE3VV6kix9i$496EWDDi4YAvCM0nEl8Cipy0bFI6MTX7HUgHAA0LK+4=",
+            "username": "reviewer3",
+            "verified": true,
+            "role": "reviewer",
+            "email": "reviewer3@example.com"
+        }
+    },
+    {
+        "model": "users.user",
+        "fields": {
+            "password": "pbkdf2_sha256$1000000$MzcEjdkj8OKiE3VV6kix9i$496EWDDi4YAvCM0nEl8Cipy0bFI6MTX7HUgHAA0LK+4=",
+            "username": "reviewer4",
+            "verified": true,
+            "role": "reviewer",
+            "email": "reviewer4@example.com"
+        }
+    },
+    {
+        "model": "users.user",
+        "fields": {
+            "password": "pbkdf2_sha256$1000000$MzcEjdkj8OKiE3VV6kix9i$496EWDDi4YAvCM0nEl8Cipy0bFI6MTX7HUgHAA0LK+4=",
+            "username": "reviewer5",
+            "verified": true,
+            "role": "reviewer",
+            "email": "reviewer5@example.com"
+        }
+    },
+    {
+    "model": "users.user",
+        "fields": {
+            "password": "pbkdf2_sha256$1000000$MzcEjdkj8OKiE3VV6kix9i$496EWDDi4YAvCM0nEl8Cipy0bFI6MTX7HUgHAA0LK+4=",
+            "username": "vendor1",
+            "verified": true,
+            "role": "vendor",
+            "email": "vendor1@example.com"
+        }
+    },
+    
+    {"model": "users.reviewer", "fields": {"user_id": 1}}, 
+    {"model": "users.reviewer", "fields": {"user_id": 2}}, 
+    {"model": "users.reviewer", "fields": {"user_id": 3}}, 
+    {"model": "users.reviewer", "fields": {"user_id": 4}}, 
+    {"model": "users.reviewer", "fields": {"user_id": 5}},
+    
+    {"model": "users.vendor", "fields": {"company_name": "Foodie Inc.", "vendor_uen": "12345678A", "user_id": 6, "vendor_status":true}}
+]
